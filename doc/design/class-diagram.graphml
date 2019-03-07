@@ -47,7 +47,6 @@
     </node>
     <node id="n1">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="112.0" width="100.0" x="116.0" y="32.0"/>
@@ -72,7 +71,6 @@
     </node>
     <node id="n2">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="132.0" width="176.0" x="430.0" y="32.0"/>
@@ -98,7 +96,6 @@
     </node>
     <node id="n3">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="120.0" width="184.0" x="637.0" y="283.0"/>
@@ -124,7 +121,6 @@
     </node>
     <node id="n4">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="120.0" width="157.0" x="664.0" y="477.0"/>
@@ -149,7 +145,6 @@
     </node>
     <node id="n5">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="112.0" width="100.0" x="830.0" y="74.00000000000017"/>
@@ -173,7 +168,6 @@
     </node>
     <node id="n6">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="202.0" width="262.0" x="358.0" y="660.0000000000002"/>
@@ -204,7 +198,6 @@
     </node>
     <node id="n7">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="132.0" width="176.0" x="735.0" y="660.0000000000002"/>
@@ -230,7 +223,6 @@
     </node>
     <node id="n8">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="158.0" width="171.0" x="116.0" y="639.0"/>
@@ -258,7 +250,6 @@
     </node>
     <node id="n9">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="132.0" width="184.0" x="116.0" y="826.0"/>
@@ -284,7 +275,6 @@
     </node>
     <node id="n10">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="132.0" width="184.0" x="391.00000000000045" y="894.9999999999998"/>
@@ -310,7 +300,6 @@
     </node>
     <node id="n11">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="179.33333333333314" width="166.0" x="758.0" y="885.9999999999998"/>
@@ -339,7 +328,6 @@
     </node>
     <node id="n12">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="230.5" width="184.0" x="1059.5333333333333" y="622.0000000000002"/>
@@ -354,12 +342,10 @@
           </y:NodeLabel>
           <y:UML clipContent="true" constraint="" hasDetailsColor="false" omitDetails="false" stereotype="" use3DEffect="true">
             <y:AttributeLabel>- name: String
-- owners: Owners
 - meta: Metadata
 - topics: List&lt;Topic&gt;
 - client: Client</y:AttributeLabel>
             <y:MethodLabel>+ getName()
-+ getOwners()
 + getMetadata()
 + getTopics()
 + addTopic()
@@ -372,7 +358,6 @@
     </node>
     <node id="n13">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="120.0" width="133.0" x="1004.9999999999995" y="241.0"/>
@@ -396,7 +381,6 @@
     </node>
     <node id="n14">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="111.99999999999994" width="133.0" x="1037.9999999999995" y="433.9999999999999"/>
@@ -420,10 +404,9 @@
     </node>
     <node id="n15">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="111.99999999999989" width="166.0" x="573.7500000000006" y="1255.7499999999993"/>
+          <y:Geometry height="140.84048404840485" width="166.0" x="573.7500000000006" y="1255.7499999999993"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="46.73876953125" x="59.630615234375" y="3.0">Client<y:LabelModel>
@@ -435,19 +418,20 @@
           </y:NodeLabel>
           <y:UML clipContent="true" constraint="" hasDetailsColor="false" omitDetails="false" stereotype="" use3DEffect="true">
             <y:AttributeLabel>- id: String
-- meta: Metadata</y:AttributeLabel>
+- meta: Metadata
+- owners: Owners</y:AttributeLabel>
             <y:MethodLabel>+ getId()
-+ getMeta()</y:MethodLabel>
++ getMeta()
++ getOwners()</y:MethodLabel>
           </y:UML>
         </y:UMLClassNode>
       </data>
     </node>
     <node id="n16">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="179.33333333333303" width="202.0" x="998.7499999999995" y="1170.8749999999995"/>
+          <y:Geometry height="158.0" width="202.0" x="998.7499999999995" y="1170.8749999999995"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="109.63134765625" x="46.184326171875" y="3.0">TopicProducer<y:LabelModel>
@@ -459,21 +443,18 @@
           </y:NodeLabel>
           <y:UML clipContent="true" constraint="" hasDetailsColor="false" omitDetails="false" stereotype="" use3DEffect="true">
             <y:AttributeLabel>- client: Client
-- topic: List&lt;Topic&gt;
-- owners: Owners</y:AttributeLabel>
+- topic: List&lt;Topic&gt;</y:AttributeLabel>
             <y:MethodLabel>+ getTopics()
 + addTopic()
 + removeTopic()
 + getClient()
-+ setClient()
-+ getOwners()</y:MethodLabel>
++ setClient()</y:MethodLabel>
           </y:UML>
         </y:UMLClassNode>
       </data>
     </node>
     <node id="n17">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="179.33333333333303" width="166.0" x="1303.999999999999" y="1070.2499999999995"/>
@@ -502,7 +483,6 @@
     </node>
     <node id="n18">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="289.0000000000001" width="157.0" x="1251.4999999999993" y="307.99999999999983"/>
