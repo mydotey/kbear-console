@@ -22,9 +22,8 @@
 2. 用户提供自定义信息。
 3. 用户选择要部署的cluster。
 4. 用户配置消息生产是否需要申请。
-5. 用户配置消息消费是否需要申请。
-6. 系统保存信息。
-7. 系统根据topic name和Kafka topic配置信息，在所选择集群上创建topic。
+5. 系统保存信息。
+6. 系统根据topic name和Kafka topic配置信息，在所选择集群上创建topic。
 
 [价值]
 
@@ -36,7 +35,7 @@
 2. 系统对Kafka topic配置信息提供默认值，用户可选。
 3. 可限定具有某种特征（自定义信息）的topic只能部署到某些cluster。
 4. 1个topic可以部署到多个集群。
-5. 消息生产、消费默认需要申请。
+5. 消息生产默认需要申请。
 6. 可以对每个要部署的cluster分别设置Kafka topic配置。
 
 ## 查看topic
@@ -50,10 +49,11 @@
 [描述]
 
 1. 查看topic name、Kafka topic配置信息和自定义信息。
-2. 查看消息生产、消费权限。如果需要申请，查看已授权的client、consumer group。
-3. 查看topic所部署的cluster，和cluster特定Kafka topic的配置。
-4. 查看cluster上topic partition分布信息。
-5. 查看topic特定的路由规则。
+2. 查看消息生产权限。如果需要申请，查看已授权的client。
+3. 查看消费此Topic的consumer group。
+4. 查看topic所部署的cluster，和cluster特定Kafka topic的配置。
+5. 查看cluster上topic partition分布信息。
+6. 查看topic特定的路由规则。
 
 [价值]
 
@@ -77,7 +77,7 @@
 2. 增加、删除、修改自定义元信息。
 3. 增加部署cluster，并在cluster上创建topic。
 4. 减少部署cluster，并在cluster上删除topic。
-5. 修改生产、消费权限控制。
+5. 修改生产权限控制。
 
 [价值]
 
